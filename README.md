@@ -5,4 +5,6 @@ Light gradient boosting machine (LightGBM) is an inte-grated algorithm for build
 
 ## Gradient-based One-Side Sampling (GOSS)
 
-GOSS mainly realizes data sampling. Since large gradientsamples have a greater impact on information gain, GOSS discards samples which are not helpful in calculating infor-mation gain. When data sampling is performed, only large gradient instances are retained, and small gradient instances are randomly sampled while introducing constant multipliers $(1−a)/b$, leading to make the algorithm pay more attention to the instances of insufﬁcient training and reduce the impact onthe distribution of the original dataset.
+GOSS mainly realizes data sampling. Since large gradientsamples have a greater impact on information gain, GOSS discards samples which are not helpful in calculating infor-mation gain. When data sampling is performed, only large gradient instances are retained, and small gradient instances are randomly sampled while introducing constant multipliers (1−a)/b, leading to make the algorithm pay more attention to the instances of insufﬁcient training and reduce the impact onthe distribution of the original dataset.
+
+![Goss flow](goss-flow.png "Goss flow")
