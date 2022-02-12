@@ -1,7 +1,7 @@
 # BoostingWithGoss
 This repo holds an implementation of Gradient Boosting Decision Tree which aims to reproduce the Gradient one-side sampling technique presented in LightGBM
 
-Light gradient boosting machine (LightGBM) is an inte-grated algorithm for building gradient boosting decision tree(GBDT), which has the characteristics of faster trainingspeed, lower memory consumption, better accuracy, andsupport for parallel processing of massive data. Different from tradi-tional algorithms for generating GBDTs, such as XGBoost, pGBRT, scikit-learn, etc., LightGBM mainly optimizes the following aspects:
+Light gradient boosting machine (LightGBM) is an integrated algorithm for building gradient boosting decision tree(GBDT), which has the characteristics of faster trainingspeed, lower memory consumption, better accuracy, andsupport for parallel processing of massive data. Different from tradi-tional algorithms for generating GBDTs, such as XGBoost, pGBRT, scikit-learn, etc., LightGBM mainly optimizes the following aspects:
 
 ## Gradient-based One-Side Sampling (GOSS)
 
